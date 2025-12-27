@@ -11,7 +11,8 @@ const mainRoute = require("./routing.config");
 const app = express();
 connectDB();  
 app.use(cors({
-  origin: ["http://localhost:5173", "https://techjar-1.onrender.com"],
+  origin: ["http://localhost:5173", "https://techjar.netlify.app/"],
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
 
