@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import HeaderComponent from "../Home/header";
-const baseURL = "http://localhost:3001/list";
+const baseURL = "https://techjar-1.onrender.com/list";
 
 const ListEdit: React.FC = () => {
   const [list, setList] = useState<any>({

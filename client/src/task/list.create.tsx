@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import HeaderComponent from "../Home/header";
 
-const baseURL = "http://localhost:3001/list";
+const baseURL = "https://techjar-1.onrender.com/list";
 
 const ListCreate: React.FC = () => {
   const [formData, setFormData] = useState({
