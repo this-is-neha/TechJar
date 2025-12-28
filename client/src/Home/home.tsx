@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
-const baseURL = "http://localhost:3001/list";
+const baseURL = "https://techjar-1.onrender.com/list";
 import { useNavigate } from "react-router-dom";
 import HeaderComponent from "./header";
 import { Target, Zap, CheckSquare } from "lucide-react";

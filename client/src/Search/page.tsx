@@ -3,7 +3,7 @@ import HeaderComponent from "../Home/header";
 import axios from "axios";
 import { useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from "react";
-const baseURL = "http://localhost:3001/list";
+const baseURL = "https://techjar-1.onrender.com/list";
 
 const searchPage = () => {
     const [params] = useSearchParams();
